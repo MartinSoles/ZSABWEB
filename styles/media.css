@@ -1,0 +1,111 @@
+@media only screen and (min-width: 900px) {
+    .ac{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        
+    }
+    .ac-item{
+        min-width: 300px;
+    }
+    .links{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        max-width: 90%;
+        justify-items: center;
+        gap: 1em;
+       
+    }
+    .menu-navbar{
+        display: flex;
+        
+    }
+    .menu-navbar-list > li{
+        font-size: .9em;
+        width: 100%;
+
+    }
+    .menu-navbar-list{
+        flex-direction: row;
+        padding: 0px;
+        border: none;
+        margin-right: 1em;
+    }
+    .menu-navbar-icon{
+        display: none;
+    }
+    #cross-nav{
+        display: none;
+        
+    }
+    #menu-navbar-top-close-logo{
+        display: none;
+    }
+    h1{
+        display: none;
+    }
+    /*
+    .personal{
+        grid-template-columns: 1fr 1fr;
+    }
+    */
+    .schedule-cover{
+        width: 70vw;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .ac{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        
+    }
+    .links{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        max-width: 80%;
+        
+        gap: 1em;
+       
+    }
+    .akce{
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 1em;
+        justify-items: center;
+        
+    }
+    .menu-navbar-list > li{
+        font-size: 1.2em;
+        width: 100%;
+
+    }
+    .schedule-cover{
+        width: 60vw;
+    }
+    .menu-navbar-list-dropdown.active{
+        position: absolute;
+        right: 1em;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .ac{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        
+    }
+    .links{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        max-width: 90%;
+        justify-items: center;
+        gap: 1em;
+       
+    }
+    /*
+    .personal{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3em;
+
+    }
+    */
+}

@@ -1,0 +1,19 @@
+.parent-news-item{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    word-wrap: break-word;
+    box-shadow: 3px 3px 3px rgba(172, 170, 170, 0.863);
+    padding: 1em;
+    background-color: lightgray;
+}
+.parent-news{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.parent-date{
+    margin-left: auto;
+    padding: .5em;
+    font-size: .8em;
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'MujFont';
+    src: url('../fonts/century-gothic/Century\ Gothic.ttf') format('truetype');
+
+}
+body{
+    font-family: 'MujFont', sans-serif;
+    
+}
+.general{
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.general-item{
+    padding: .5em;
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-evenly;
+}
+p{
+    font-size: 2em;
+    font-weight: 200;
+    display: block;
+}
+.main-section{
+    border: 1px solid black;
+    padding: 1em;
+    width: 18em;
+}
+#admin-title{
+    text-align: center;
+}
